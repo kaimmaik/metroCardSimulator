@@ -14,7 +14,7 @@ public class test
 	    System.out.println("SIMULATER:::Creating a card with initail balance with 4.5 roubles");
 		Card c4_5=cardFacrtory.IssueACard(4.5f);
 		System.out.println("SIMULATER:::User trying to swipe card at station number 2");
-		boolean isallowed=sap.swipeIn(c4_5, 2);
+		boolean isallowed = sap.swipeIn(c4_5, 2);
 
 
 
